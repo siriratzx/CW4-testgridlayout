@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden; 
+    background-color: #00195f;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: yellow;
+    color: black;
+}
+/* Style the content */
+.content {
+    background-color: rgb(134, 176, 255); 
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+/* Style the footer */
+.footer {
+    background-color: rgb(0, 60, 138); 
+    padding: 10px;
+}
